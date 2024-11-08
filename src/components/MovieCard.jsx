@@ -9,7 +9,7 @@ const MovieCard = ({ movie, isFavorite, toggleFavorite }) => {
       className="border my-3 rounded-lg shadow-lg p-4 w-full sm:w-64 md:w-72 lg:w-80 cursor-pointer bg-gradient-to-br from-gray-800 via-gray-900 to-black hover:shadow-xl hover:scale-105 transform transition-all duration-300"
       onClick={() => navigate(`/movie/${movie.imdbID}`)}
     >
-      <div className="overflow-hidden rounded-lg mb-4">
+      <div className="overflow-hidden rounded-lg mb-4 shadow-lg"> {/* Add shadow to the image container */}
         <img
           src={movie.Poster}
           alt={movie.Title}

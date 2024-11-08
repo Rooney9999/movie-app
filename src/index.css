@@ -4,6 +4,6 @@
 
 @layer base {
   body {
-    @apply bg-gray-500; /* Apply Tailwind's gray background color to the body */
+    @apply bg-black; /* Apply Tailwind's gray background color to the body */
   }
 }
